@@ -13,12 +13,12 @@
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 </head>
 <body class="antialiased">
-    <div class="container mx-auto">
-        <div id="app">
-            <h2 v-text="foo"></h2>
-        </div>
+<div class="container mx-auto">
+    <div id="app">
+        <router-view></router-view>
     </div>
+</div>
 
-    <script src="{{ mix('js/app.js') }}"></script>
+<script src="{{ mix('js/app.js') }}"></script>
 </body>
 </html>
